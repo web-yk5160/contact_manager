@@ -56,3 +56,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'faker', '~> 1.6', '>= 1.6.3'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+gem 'kaminari', '~> 1.1', '>= 1.1.1'
