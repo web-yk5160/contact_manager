@@ -5,29 +5,29 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
-  <body>
-    <!-- navbar -->
-   <%= render 'layouts/navbar' %>
+    <body>
+      <!-- navbar -->
+      <%= render 'layouts/navbar' %>
 
-   <!-- content -->
-   <div class="container">
-     <div class="row">
-       <div class="col-md-3">
-         <%= render 'layouts/sidebar' %>
-       </div><!-- /.col-md-3 -->
+      <!-- content -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <%= render 'layouts/sidebar' %>
+          </div>
+          <!-- /.col-md-3 -->
 
-       <div class="col-md-9">
-         <p class="notice"><%= notice %></p>
-         <p class="alert"><%= alert %></p>
-         <%= render "layouts/message" if !flash.empty? %>
-         <%= yield %>
+          <div class="col-md-9">
+            <!-- <p class="notice"><%= notice %></p> <p class="alert"><%= alert %></p> -->
+            <%= render "layouts/message" if !flash.empty? %>
+            <%= yield %>
 
-       </div>
-     </div>
-   </div>
+          </div>
+        </div>
+      </div>
 
-  </body>
-</html>
+    </body>
+  </html>
