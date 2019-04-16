@@ -61,3 +61,4 @@ gem 'paperclip', '~> 5.1'
 gem 'jasny-bootstrap-rails', '~> 3.1', '>= 3.1.3'
 gem "jquery-rails"
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+gem 'devise', '~> 4.6', '>= 4.6.2'
