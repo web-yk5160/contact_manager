@@ -5,7 +5,7 @@
 
 <div class="col-md-9">
   <!-- <p class="notice"><%= notice %></p> <p class="alert"><%= alert %></p> -->
-  
+
 
   <div class="panel panel-default">
     <div class="panel-heading clearfix">
@@ -19,7 +19,7 @@
         <% end %>
       </div>
       </div>
-    <table class="table">
+    <table class="table" id="contacts">
       <%= render @contacts %>
     </table>
     <% if @contacts.blank? %>
@@ -31,8 +31,8 @@
     <% end %>
   </div>
 
-  <div class="text-center">
-    <%= paginate @contacts %>
+  <div class="text-center" id="paginator">
+    <%= paginate @contacts, remote: true %>
   </div>
 
 
