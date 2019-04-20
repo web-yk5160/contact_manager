@@ -63,3 +63,4 @@ gem "jquery-rails"
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 gem 'devise', '~> 4.6', '>= 4.6.2'
 gem 'pundit', '~> 1.1'
+gem 'toastr-rails', '~> 1.0', '>= 1.0.3'

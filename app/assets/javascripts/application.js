@@ -17,6 +17,7 @@
 //= require activestorage
 //= require turbolinks
 //= require jquery-ui
+//= require toastr
 //= require_tree .
 
 
@@ -29,4 +30,6 @@ $(document).on('turbolinks:load', function() {
       $(this).closest('form').submit();
     }
   });
+
+
 });
